@@ -8,10 +8,10 @@ This module requires a minimum of Node v6.9.0 and Webpack 4.
 
 ## Getting Started
 
-To begin, you'll need to install `webpack-cleanup-plugin`:
+To begin, you'll need to install `beckans-webpack-cleanup-plugin`:
 
 ```console
-$ npm install webpack-cleanup-plugin --save-dev
+$ npm install beckans-webpack-cleanup-plugin --save-dev
 ```
 
 Then add the plugin to your `webpack` config. For example:
