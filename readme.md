@@ -35,12 +35,12 @@ And run `webpack` via your preferred method.
 
 ### `exclude`
 
-Type: `Object`
-Default: `{}`
+Type: `Array`
+Default: `[]`
 
 ### `extentions`
 
-Type: `Array[String]`
+Type: `Array`
 Default: `null`
 
 ### `size`
