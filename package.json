@@ -1,5 +1,5 @@
 {
-  "name": "webpack-cleanup-plugin",
+  "name": "beckans-webpack-cleanup-plugin",
   "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
