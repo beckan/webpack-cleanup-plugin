@@ -1,10 +1,10 @@
 # webpack-cleanup-plugin
 
-A CSSComb plugin for webpack
+A cleanup plugin for webpack
 
 ## Requirements
 
-This module requires a minimum of Node v6.9.0 and it's compatible with both Webpack 3 and 4.
+This module requires a minimum of Node v6.9.0 and Webpack 4.
 
 ## Getting Started
 
