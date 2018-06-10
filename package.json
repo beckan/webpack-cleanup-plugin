@@ -1,0 +1,33 @@
+{
+  "name": "webpack-cleanup-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib --presets=env --plugins=add-module-exports",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beckan/webpack-cleanup-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "cleanup"
+  ],
+  "author": "Daniel Bäckström",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beckan/webpack-cleanup-plugin/issues"
+  },
+  "homepage": "https://github.com/beckan/webpack-cleanup-plugin#readme",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.7.0"
+  }
+}
