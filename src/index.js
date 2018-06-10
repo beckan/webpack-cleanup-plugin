@@ -38,7 +38,7 @@ class CleanupPlugin {
 	mergeOptions () {
 		// Merge options
 		this.options = Object.assign({
-			exclude: {},
+			exclude: [],
 			extentions: null,
 			size: 4700,
 			path: './'
@@ -60,7 +60,7 @@ class CleanupPlugin {
 		let files = fs.readdirSync(this.options.path);
 
 		files.forEach((file) => {
-			if (typeof this.options.exclude[file] === 'undefined' && (!this.options.extentions || this.options.extentions.indexOf(path.extname(file)) > -1)) {
+			if (this.options.exclude.indexOf(file) < 0 && (!this.options.extentions || this.options.extentions.indexOf(path.extname(file)) > -1)) {
 				let filePath = path.join(this.options.path, file);
 				let stats = fs.statSync(filePath);
 
